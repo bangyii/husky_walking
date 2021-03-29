@@ -25,6 +25,396 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
 -->
 <sdf version='1.4'>
   <world name='default'>
+		<actor name="walking29">
+			<pose>29 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor29_plugin" filename="libactor_plugin.so">
+				<actor_id>29</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking28">
+			<pose>28 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor28_plugin" filename="libactor_plugin.so">
+				<actor_id>28</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking27">
+			<pose>27 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor27_plugin" filename="libactor_plugin.so">
+				<actor_id>27</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking26">
+			<pose>26 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor26_plugin" filename="libactor_plugin.so">
+				<actor_id>26</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking25">
+			<pose>25 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor25_plugin" filename="libactor_plugin.so">
+				<actor_id>25</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking24">
+			<pose>24 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor24_plugin" filename="libactor_plugin.so">
+				<actor_id>24</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking23">
+			<pose>23 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor23_plugin" filename="libactor_plugin.so">
+				<actor_id>23</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking22">
+			<pose>22 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor22_plugin" filename="libactor_plugin.so">
+				<actor_id>22</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking21">
+			<pose>21 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor21_plugin" filename="libactor_plugin.so">
+				<actor_id>21</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking20">
+			<pose>20 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor20_plugin" filename="libactor_plugin.so">
+				<actor_id>20</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking19">
+			<pose>19 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor19_plugin" filename="libactor_plugin.so">
+				<actor_id>19</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking18">
+			<pose>18 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor18_plugin" filename="libactor_plugin.so">
+				<actor_id>18</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking17">
+			<pose>17 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor17_plugin" filename="libactor_plugin.so">
+				<actor_id>17</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking16">
+			<pose>16 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor16_plugin" filename="libactor_plugin.so">
+				<actor_id>16</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking15">
+			<pose>15 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor15_plugin" filename="libactor_plugin.so">
+				<actor_id>15</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking14">
+			<pose>14 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor14_plugin" filename="libactor_plugin.so">
+				<actor_id>14</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking13">
+			<pose>13 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor13_plugin" filename="libactor_plugin.so">
+				<actor_id>13</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking12">
+			<pose>12 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor12_plugin" filename="libactor_plugin.so">
+				<actor_id>12</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking11">
+			<pose>11 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor11_plugin" filename="libactor_plugin.so">
+				<actor_id>11</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking10">
+			<pose>10 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor10_plugin" filename="libactor_plugin.so">
+				<actor_id>10</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking9">
+			<pose>9 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor9_plugin" filename="libactor_plugin.so">
+				<actor_id>9</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking8">
+			<pose>8 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor8_plugin" filename="libactor_plugin.so">
+				<actor_id>8</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking7">
+			<pose>7 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor7_plugin" filename="libactor_plugin.so">
+				<actor_id>7</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking6">
+			<pose>6 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor6_plugin" filename="libactor_plugin.so">
+				<actor_id>6</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking5">
+			<pose>5 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor5_plugin" filename="libactor_plugin.so">
+				<actor_id>5</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking4">
+			<pose>4 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor4_plugin" filename="libactor_plugin.so">
+				<actor_id>4</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking3">
+			<pose>3 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor3_plugin" filename="libactor_plugin.so">
+				<actor_id>3</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking2">
+			<pose>2 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor2_plugin" filename="libactor_plugin.so">
+				<actor_id>2</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking1">
+			<pose>1 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor1_plugin" filename="libactor_plugin.so">
+				<actor_id>1</actor_id>
+			</plugin>
+		</actor>
+		<actor name="walking0">
+			<pose>0 0 1.0 0 0 0</pose>
+			<skin>
+				<filename>walk.dae</filename>
+			</skin>
+			<animation name="walking">
+				<filename>walk.dae</filename>
+				<interpolate_x>true</interpolate_x>
+			</animation>
+			<plugin name="actor0_plugin" filename="libactor_plugin.so">
+				<actor_id>0</actor_id>
+			</plugin>
+		</actor>
     <light name='sun' type='directional'>
       <cast_shadows>1</cast_shadows>
       <pose>0 0 10 0 -0 0</pose>
