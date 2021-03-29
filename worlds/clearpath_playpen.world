@@ -25,136 +25,6 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
 -->
 <sdf version='1.4'>
   <world name='default'>
-		<actor name="walking29">
-			<pose>29 0 1.0 0 0 0</pose>
-			<skin>
-				<filename>walk.dae</filename>
-			</skin>
-			<animation name="walking">
-				<filename>walk.dae</filename>
-				<interpolate_x>true</interpolate_x>
-			</animation>
-			<plugin name="actor29_plugin" filename="libactor_plugin.so">
-				<actor_id>29</actor_id>
-			</plugin>
-		</actor>
-		<actor name="walking28">
-			<pose>28 0 1.0 0 0 0</pose>
-			<skin>
-				<filename>walk.dae</filename>
-			</skin>
-			<animation name="walking">
-				<filename>walk.dae</filename>
-				<interpolate_x>true</interpolate_x>
-			</animation>
-			<plugin name="actor28_plugin" filename="libactor_plugin.so">
-				<actor_id>28</actor_id>
-			</plugin>
-		</actor>
-		<actor name="walking27">
-			<pose>27 0 1.0 0 0 0</pose>
-			<skin>
-				<filename>walk.dae</filename>
-			</skin>
-			<animation name="walking">
-				<filename>walk.dae</filename>
-				<interpolate_x>true</interpolate_x>
-			</animation>
-			<plugin name="actor27_plugin" filename="libactor_plugin.so">
-				<actor_id>27</actor_id>
-			</plugin>
-		</actor>
-		<actor name="walking26">
-			<pose>26 0 1.0 0 0 0</pose>
-			<skin>
-				<filename>walk.dae</filename>
-			</skin>
-			<animation name="walking">
-				<filename>walk.dae</filename>
-				<interpolate_x>true</interpolate_x>
-			</animation>
-			<plugin name="actor26_plugin" filename="libactor_plugin.so">
-				<actor_id>26</actor_id>
-			</plugin>
-		</actor>
-		<actor name="walking25">
-			<pose>25 0 1.0 0 0 0</pose>
-			<skin>
-				<filename>walk.dae</filename>
-			</skin>
-			<animation name="walking">
-				<filename>walk.dae</filename>
-				<interpolate_x>true</interpolate_x>
-			</animation>
-			<plugin name="actor25_plugin" filename="libactor_plugin.so">
-				<actor_id>25</actor_id>
-			</plugin>
-		</actor>
-		<actor name="walking24">
-			<pose>24 0 1.0 0 0 0</pose>
-			<skin>
-				<filename>walk.dae</filename>
-			</skin>
-			<animation name="walking">
-				<filename>walk.dae</filename>
-				<interpolate_x>true</interpolate_x>
-			</animation>
-			<plugin name="actor24_plugin" filename="libactor_plugin.so">
-				<actor_id>24</actor_id>
-			</plugin>
-		</actor>
-		<actor name="walking23">
-			<pose>23 0 1.0 0 0 0</pose>
-			<skin>
-				<filename>walk.dae</filename>
-			</skin>
-			<animation name="walking">
-				<filename>walk.dae</filename>
-				<interpolate_x>true</interpolate_x>
-			</animation>
-			<plugin name="actor23_plugin" filename="libactor_plugin.so">
-				<actor_id>23</actor_id>
-			</plugin>
-		</actor>
-		<actor name="walking22">
-			<pose>22 0 1.0 0 0 0</pose>
-			<skin>
-				<filename>walk.dae</filename>
-			</skin>
-			<animation name="walking">
-				<filename>walk.dae</filename>
-				<interpolate_x>true</interpolate_x>
-			</animation>
-			<plugin name="actor22_plugin" filename="libactor_plugin.so">
-				<actor_id>22</actor_id>
-			</plugin>
-		</actor>
-		<actor name="walking21">
-			<pose>21 0 1.0 0 0 0</pose>
-			<skin>
-				<filename>walk.dae</filename>
-			</skin>
-			<animation name="walking">
-				<filename>walk.dae</filename>
-				<interpolate_x>true</interpolate_x>
-			</animation>
-			<plugin name="actor21_plugin" filename="libactor_plugin.so">
-				<actor_id>21</actor_id>
-			</plugin>
-		</actor>
-		<actor name="walking20">
-			<pose>20 0 1.0 0 0 0</pose>
-			<skin>
-				<filename>walk.dae</filename>
-			</skin>
-			<animation name="walking">
-				<filename>walk.dae</filename>
-				<interpolate_x>true</interpolate_x>
-			</animation>
-			<plugin name="actor20_plugin" filename="libactor_plugin.so">
-				<actor_id>20</actor_id>
-			</plugin>
-		</actor>
 		<actor name="walking19">
 			<pose>19 0 1.0 0 0 0</pose>
 			<skin>
@@ -2701,7 +2571,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
       <pose>4 5 0 0 -0 0</pose>
       <static>0</static>
     </model>
-    <!--model name='Dumpster_0'>
+    <model name='Dumpster_0'>
       <link name='link'>
         <collision name='collision'>
           <geometry>
@@ -2755,8 +2625,8 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
       </link>
       <pose>-4 -1 0 0 -0 0</pose>
       <static>0</static>
-    </model-->
-    <!--model name='jersey_barrier_15'>
+    </model>
+    <model name='jersey_barrier_15'>
       <static>1</static>
       <link name='link'>
         <visual name='visual'>
@@ -2883,7 +2753,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
         <gravity>1</gravity>
       </link>
       <pose>2.45495 0 0 0 -0 0</pose>
-    </model-->
+    </model>
     <model name='Construction Cone'>
       <link name='link'>
         <collision name='collision'>
@@ -3641,7 +3511,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <!--model name='Dumpster_0'>
+      <model name='Dumpster_0'>
         <pose>-2.35048 -4.41043 0.050918 0 -0 2.08003</pose>
         <link name='link'>
           <pose>-2.35048 -4.41043 0.050918 0 -0 2.08003</pose>
@@ -3649,7 +3519,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
-      </model-->
+      </model>
       <model name='asphalt_plane'>
         <pose>0.076733 -0.110379 0 0 -0 0</pose>
         <link name='link'>
@@ -3767,7 +3637,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <!--model name='jersey_barrier_15'>
+      <model name='jersey_barrier_15'>
         <pose>2.45495 0 0 0 -0 2.36</pose>
         <link name='link'>
           <pose>2.45495 0 0 0 -0 2.36</pose>
@@ -3775,7 +3645,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
-      </model-->
+      </model>
       <model name='jersey_barrier_2'>
         <pose>7 -10 0 0 -0 0</pose>
         <link name='link'>
@@ -3855,237 +3725,5 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
         <view_controller>orbit</view_controller>
       </camera>
     </gui>
-    <!-- <actor name="walking1">
-      <skin>
-        <filename>walk.dae</filename>
-      </skin>
-      <animation name="walking">
-        <filename>walk.dae</filename>
-        <interpolate_x>true</interpolate_x>
-      </animation>
-      <script>
-        <trajectory id="0" type="walking">
-          <waypoint>
-            <time>0</time>
-            <pose>0 3 0 0 0 0</pose>
-          </waypoint>
-          <waypoint>
-            <time>5</time>
-            <pose>5 3 0 0 0 0</pose>
-          </waypoint>
-          <waypoint>
-            <time>6.5</time>
-            <pose>5 3 0 0 0 3.14</pose>
-          </waypoint>
-          <waypoint>
-            <time>16.5</time>
-            <pose>-5 3 0 0 0 3.14</pose>
-          </waypoint>
-          <waypoint>
-            <time>18.0</time>
-            <pose>-5 3 0 0 0 0</pose>
-          </waypoint>
-          <waypoint>
-            <time>23.5</time>
-            <pose>0 3 0 0 0 0</pose>
-          </waypoint>
-        </trajectory>
-      </script>
-    </actor>
-    <actor name="walking2">
-      <skin>
-        <filename>walk.dae</filename>
-      </skin>
-      <animation name="walking">
-        <filename>walk.dae</filename>
-        <interpolate_x>true</interpolate_x>
-      </animation>
-      <script>
-        <trajectory id="0" type="walking">
-          <waypoint>
-            <time>0</time>
-            <pose>3 2 0 0 0 0</pose>
-          </waypoint>
-          <waypoint>
-            <time>3</time>
-            <pose>5 2 0 0 0 0</pose>
-          </waypoint>
-          <waypoint>
-            <time>4.5</time>
-            <pose>5 2 0 0 0 3.14</pose>
-          </waypoint>
-          <waypoint>
-            <time>14.5</time>
-            <pose>-5 2 0 0 0 3.14</pose>
-          </waypoint>
-          <waypoint>
-            <time>16.0</time>
-            <pose>-5 2 0 0 0 0</pose>
-          </waypoint>
-          <waypoint>
-            <time>24.5</time>
-            <pose>3 2 0 0 0 0</pose>
-          </waypoint>
-        </trajectory>
-      </script>
-    </actor>
-    <actor name="walking3">
-      <skin>
-        <filename>walk.dae</filename>
-      </skin>
-      <animation name="walking">
-        <filename>walk.dae</filename>
-        <interpolate_x>true</interpolate_x>
-      </animation>
-      <script>
-        <trajectory id="0" type="walking">
-          <waypoint>
-            <time>0</time>
-            <pose>-2 -1.5 0 0 0 0</pose>
-          </waypoint>
-          <waypoint>
-            <time>7</time>
-            <pose>5 -1.5 0 0 0 0</pose>
-          </waypoint>
-          <waypoint>
-            <time>8.5</time>
-            <pose>5 -1.5 0 0 0 3.14</pose>
-          </waypoint>
-          <waypoint>
-            <time>18.5</time>
-            <pose>-5 -1.5 0 0 0 3.14</pose>
-          </waypoint>
-          <waypoint>
-            <time>20.0</time>
-            <pose>-5 -1.5 0 0 0 0</pose>
-          </waypoint>
-          <waypoint>
-            <time>23.5</time>
-            <pose>-2 -1.5 0 0 0 0</pose>
-          </waypoint>
-        </trajectory>
-      </script>
-    </actor>
-    <actor name="walking4">
-      <skin>
-        <filename>walk.dae</filename>
-      </skin>
-      <animation name="walking">
-        <filename>walk.dae</filename>
-        <interpolate_x>true</interpolate_x>
-      </animation>
-      <script>
-        <trajectory id="0" type="walking">
-          <waypoint>
-            <time>0</time>
-            <pose>1 0 0 0 0 0</pose>
-          </waypoint>
-          <waypoint>
-            <time>4</time>
-            <pose>5 0 0 0 0 0</pose>
-          </waypoint>
-          <waypoint>
-            <time>5.5</time>
-            <pose>5 0 0 0 0 3.14</pose>
-          </waypoint>
-          <waypoint>
-            <time>15.5</time>
-            <pose>-5 0 0 0 0 3.14</pose>
-          </waypoint>
-          <waypoint>
-            <time>17.0</time>
-            <pose>-5 0 0 0 0 0</pose>
-          </waypoint>
-          <waypoint>
-            <time>23.5</time>
-            <pose>1 0 0 0 0 0</pose>
-          </waypoint>
-        </trajectory>
-      </script>
-    </actor> -->
-    <actor name="walking1">
-      <pose>5 0 1.1 0 0 0</pose>
-      <skin>
-        <filename>walk.dae</filename>
-      </skin>
-      <animation name="walking">
-        <filename>walk.dae</filename>
-        <interpolate_x>true</interpolate_x>
-      </animation>
-      <plugin name="actor1_plugin" filename="libactor_plugin.so">
-        <actor_id>0</actor_id>
-        <target>0 -5 1.2138</target>
-        <target_weight>1.15</target_weight>
-        <obstacle_weight>1.8</obstacle_weight>
-        <animation_factor>5.1</animation_factor>
-        <ignore_obstacles>
-          <model>asphalt_plane</model>
-          <model>ground_plane</model>
-        </ignore_obstacles>
-      </plugin>
-    </actor>
-    <actor name="walking2">
-      <pose>2 0 1.1 0 0 0</pose>
-      <skin>
-        <filename>walk.dae</filename>
-      </skin>
-      <animation name="walking">
-        <filename>walk.dae</filename>
-        <interpolate_x>true</interpolate_x>
-      </animation>
-      <plugin name="actor2_plugin" filename="libactor_plugin.so">
-        <actor_id>1</actor_id>
-        <target>0 -5 1.2138</target>
-        <target_weight>1.15</target_weight>
-        <obstacle_weight>1.8</obstacle_weight>
-        <animation_factor>5.1</animation_factor>
-        <ignore_obstacles>
-          <model>asphalt_plane</model>
-          <model>ground_plane</model>
-        </ignore_obstacles>
-      </plugin>
-    </actor>
-    <actor name="walking3">
-      <pose>4 0 1.1 0 0 0</pose>
-      <skin>
-        <filename>walk.dae</filename>
-      </skin>
-      <animation name="walking">
-        <filename>walk.dae</filename>
-        <interpolate_x>true</interpolate_x>
-      </animation>
-      <plugin name="actor3_plugin" filename="libactor_plugin.so">
-        <actor_id>2</actor_id>
-        <target>0 -5 1.2138</target>
-        <target_weight>1.15</target_weight>
-        <obstacle_weight>1.8</obstacle_weight>
-        <animation_factor>5.1</animation_factor>
-        <ignore_obstacles>
-          <model>asphalt_plane</model>
-          <model>ground_plane</model>
-        </ignore_obstacles>
-      </plugin>
-    </actor>
-    <actor name="walking4">
-      <pose>2 2 1.1 0 0 0</pose>
-      <skin>
-        <filename>walk.dae</filename>
-      </skin>
-      <animation name="walking">
-        <filename>walk.dae</filename>
-        <interpolate_x>true</interpolate_x>
-      </animation>
-      <plugin name="actor4_plugin" filename="libactor_plugin.so">
-        <actor_id>3</actor_id>
-        <target>0 -5 1.2138</target>
-        <target_weight>1.15</target_weight>
-        <obstacle_weight>1.8</obstacle_weight>
-        <animation_factor>5.1</animation_factor>
-        <ignore_obstacles>
-          <model>asphalt_plane</model>
-          <model>ground_plane</model>
-        </ignore_obstacles>
-      </plugin>
-    </actor>
   </world>
 </sdf>
